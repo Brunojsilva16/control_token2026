@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* body {
+  padding-top: 2rem;
+} */
+
+p.cllpp {
+    font-size: 14px!important;
+}
+
+.module .collapse,
+.module .collapsing {
+    margin-top: 12px;
+    height: 180px;
+    /* [NUM_OF_LINES] x [LINE_HEIGHT] */
+    font-size: 14px;
+    text-align: justify;
+    /* margin-right: 150px; */
+    /* margin: 0px 12px 0px 12px */
+}
+
+.module .collapse {
+    position: relative;
+    /* For ...'s content absolute positioning */
+    display: block;
+    overflow: hidden;
+}
+
+.module .collapse.show {
+    height: auto;
+    /* You need to reset the height when not collapsed */
+}
+
+.module .collapse.show:before {
+    display: none;
+    /* Of course you don't want to display ... */
+}
+
+.module button.collapsed:after {
+    content: '+ Mostrar mais...';
+    margin-left: 12px;
+    color: #fd5a13;
+    font-size: 14px;
+}
+
+.module button:not(.collapsed):after {
+    content: '- Mostrar menos';
+    margin-left: 12px;
+    color: #af2846;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.btn-light.cllbt {
+    border-radius: 30px!important;
+    /* margin: 6px 0px 0px 3px; */
+    margin-left: 14px;
+    margin-top: 3px;
+    margin-top: 12px;
+}

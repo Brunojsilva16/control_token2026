@@ -1,0 +1,175 @@
+body {
+  background: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset.scheduler-border {
+  border: 1px groove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow: 0px 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+}
+
+legend {
+  margin-bottom: 50px;
+}
+
+select {
+  /* C */
+  background-color: #e0e8ef;
+}
+
+option {
+  background-color: yellow;
+}
+
+option:checked {
+  background-color: green;
+}
+
+.upp {
+  margin-top: 8px;
+}
+
+.doww {
+  margin-bottom: 4px;
+}
+
+.obrig {
+  color: red;
+}
+
+#myDIV {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn.btn-outline-secondary.acesso {
+  line-height: 2.2 !important;
+  border-radius: 100px;
+}
+
+.btn-light {
+  color: #212529;
+  background-color: #ebebeb!important;
+  border-color: #ebebeb!important;
+}
+
+.not-selectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input#btLogin {
+  border: none;
+  background: linear-gradient(45deg, #cf4e12, #f3219c);
+  color: white;
+  padding: 12px;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.form-check-input {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+}
+
+.form-check-label {
+  margin-left: 4px;
+}
+
+/* input#crp.form-control {
+  background-color: #86909b!important;
+  opacity: 1;
+} */
+
+input#crp.form-control:disabled,
+.form-control[readonly] {
+  background-color: #acb9c7 !important;
+  opacity: 1;
+}
+
+hr.new2 {
+  /* border-top: 2px solid blue!important; */
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+input.form-control.dt {
+  width: 65% !important;
+  margin-left: 15px;
+}
+
+label.lbdt {
+  margin-left: 15px;
+}
+
+.ccenter-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoAlerta {
+  font-size: .8em;
+  color: #e66262;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+
+.table {
+  max-width: 100%!important;
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px;
+  }
+  
+}
+
+@media (min-width: 1365px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1365px;
+  }
+  
+}
