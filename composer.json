@@ -1,0 +1,30 @@
+{
+    "name": "assista/tokensystem",
+    "description": "Sistema de controle de token - Assista",
+    "autoload": {
+        "psr-4": {
+            "Assista\\Tokensystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Silva -",
+            "email": "brunojsilvasuporte@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9",
+        "phpoffice/phpspreadsheet": "^2.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}
